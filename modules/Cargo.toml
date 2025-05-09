@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+    "nexsearch-cli"
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+homepage = ""
+documentation = ""
+repository = "https://github.com/bybyset/nexsearch"
+authors = ["cff"]
+license = "AGPL-3.0-or-later"
+
+[workspace.dependencies]
+clap = { version = "4.5.37"}
